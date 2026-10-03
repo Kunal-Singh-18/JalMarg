@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="color-scheme" content="dark light" />
+  <meta name="theme-color" content="#12171e" />
+  <script>
+    document.documentElement.dataset.theme = localStorage.getItem("jalMargTheme") || "dark";
+  </script>
+  <title>JalMarg — Delhi NCR monsoon desk</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&family=IBM+Plex+Sans:wght@400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+  <link rel="stylesheet" href="/static/styles.css?v=feat7" />
+</head>
+<body>
+  <a class="skip" href="#mapPanel">Skip to map</a>
+
+  <header class="top">
+    <div class="brand">
+      <span class="mark" aria-hidden="true">JM</span>
+      <div class="brand-text">
+        <h1>JalMarg</h1>
+        <p>Delhi NCR waterlogging &amp; emergency access</p>
+      </div>
+    </div>
+    <div class="header-actions">
+      <div class="clock">
+        <span id="liveDot" class="dot" aria-hidden="true"></span>
+        <span id="clockLabel">scenario</span>
+        <strong id="updatedAt">—</strong>
+      </div>
+      <button id="themeToggle" class="theme-toggle" type="button" aria-label="Switch to light mode"
+        title="Switch to light mode">
+        <span class="theme-icon" aria-hidden="true"></span>
+      </button>
+    </div>
+  </header>
+
+  <div class="shell">
+    <aside class="rail" aria-label="Scenario controls">
+      <section>
+        <h2>Rainfall</h2>
+        <div class="mode-switch" role="group" aria-label="Rainfall source">
+          <button type="button" id="simModeBtn" class="mode-btn is-active" aria-pressed="true">
+            Manual / Simulation
+          </button>
+          <button type="button" id="liveModeBtn" class="mode-btn" aria-pressed="false">
+            Real-Time Weather Monitoring
+          </button>
+        </div>
+        <div id="simControls">
+          <div class="rain-readout">
+            <span id="rainValue">50</span><small>mm in 3 hours</small>
+          </div>
+          <label class="sr" for="rain">Rainfall in millimetres over three hours</label>
+          <input id="rain" type="range" min="0" max="120" step="1" value="50" />
+          <div class="chips" role="group" aria-label="Rainfall presets">
+            <button data-rain="10" type="button" aria-label="Light rain, 10 millimetres">Light 10</button>
+            <button data-rain="25" type="button" aria-label="Heavy rain, 25 millimetres">Heavy 25</button>
+            <button data-rain="50" type="button" aria-label="50 millimetres">50 mm</button>
+            <button data-rain="80" type="button" aria-label="Extreme rain, 80 millimetres">Extreme 80</button>
+          </div>
+        </div>
+        <p id="liveRainNote" class="note">Manual mode: one test value for all of NCR. Real-Time Weather Monitoring: live rain per zone on the same map and router.</p>
+        <div id="weatherPanel" class="weather-panel" hidden>
+          <div class="weather-head">
+            <span id="weatherMode" class="mode-badge">LIVE</span>
+            <span id="weatherStamp" class="weather-stamp"></span>
+          </div>
+          <ul id="weatherList" class="weather-list"></ul>
+        </div>
+        <p id="rerouteNote" class="reroute-note" hidden></p>
+      </section>
+
+      <section class="sect-route">
+        <h2>Ambulance path</h2>
+        <div class="place-fields">
+          <div class="place-field">
+            <div class="place-label-row">
+              <label for="originInput">From</label>
+              <button id="liveLocation" class="location-button" type="button" aria-label="Use my live location"
+                title="Use my live location">GPS</button>
+            </div>
+            <input id="originInput" list="placeOptions" type="search" placeholder="Search or pick a landmark"
+              autocomplete="off" />
+            <p id="locationStatus" class="location-status" role="status" aria-live="polite"></p>
+          </div>
+          <div class="place-field">
+            <label for="destInput">To</label>
+            <input id="destInput" list="placeOptions" type="search" placeholder="Search destination"
+              autocomplete="off" />
+          </div>
+          <datalist id="placeOptions"></datalist>
+        </div>
+        <label class="sr" for="preset">Ambulance scenario preset</label>
+        <select id="preset"></select>
+        <div class="prefer" role="group" aria-label="Route preference">
+          <button type="button" class="prefer-btn" data-prefer="time">Shortest time</button>
+          <button type="button" class="prefer-btn is-active" data-prefer="balanced">Balanced</button>
+          <button type="button" class="prefer-btn" data-prefer="safety">Highest safety</button>
+        </div>
+        <p class="note">Same router in both rainfall modes: fastest, dry, safest, balanced, and an alternate.</p>
+        <div class="row">
+          <button id="routeBtn" class="primary" type="button">Find route options</button>
+        </div>
+        <div id="routeBox" class="route-box" role="status" aria-live="polite" aria-atomic="true"></div>
+      </section>
+
+      <section>
+        <h2>Now</h2>
+        <ul class="stats" id="stats"></ul>
+      </section>
+
+      <section>
+        <h2>Cut off / at risk</h2>
+        <ul id="facilityList" class="list"></ul>
+      </section>
+
+      <p class="disclaimer" id="disclaimer"></p>
+    </aside>
+
+    <main id="mapPanel" tabindex="-1" aria-label="Waterlogging map">
+      <div id="map"></div>
+      <div class="legend" aria-label="Map legend">
+        <span><i class="swatch blocked" aria-hidden="true"></i> Blocked</span>
+        <span><i class="swatch likely" aria-hidden="true"></i> Likely</span>
+        <span><i class="swatch watch" aria-hidden="true"></i> Watch</span>
+        <span><i class="swatch naive" aria-hidden="true"></i> Other options</span>
+        <span><i class="swatch safe" aria-hidden="true"></i> Selected / recommended</span>
+      </div>
+    </main>
+  </div>
+
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+  <script src="/static/app.js?v=feat7"></script>
+  <script src="/static/traffic.js?v=feat1"></script>
+</body>
+</html>

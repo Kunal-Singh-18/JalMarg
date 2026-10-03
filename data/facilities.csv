@@ -1,0 +1,66 @@
+id,name,kind,lat,lon,notes
+aiims,AIIMS Delhi,hospital,28.5668,77.2075,Major public hospital; Ring Road underpass at the gate
+safdarjung,Safdarjung Hospital,hospital,28.5683,77.2060,Trauma centre next to AIIMS
+rml,Dr. Ram Manohar Lohia Hospital,hospital,28.6254,77.2010,Central Delhi public hospital
+lnjp,Lok Nayak (LNJP) Hospital,hospital,28.6410,77.2380,Old Delhi trauma centre near ITO / Daryaganj
+kasturba,Kasturba Hospital Daryaganj,hospital,28.6480,77.2380,Walled City; Netaji Subhash Marg access
+ganga_ram,Sir Ganga Ram Hospital,hospital,28.6384,77.1892,Karol Bagh / Rajinder Nagar
+hindu_rao,Hindu Rao Hospital,hospital,28.6764,77.2112,Civil Lines; near Rajpur Road underpass
+st_stephens,St. Stephen's Hospital,hospital,28.6690,77.2170,Tis Hazari; north-central Delhi
+aruna_asaf_ali,Aruna Asaf Ali Government Hospital,hospital,28.6820,77.2170,Civil Lines; north Delhi catchment
+sushruta,Sushruta Trauma Centre,hospital,28.6740,77.2270,Civil Lines trauma unit off Ring Road
+ddu,Deen Dayal Upadhyay Hospital,hospital,28.6290,77.1150,Hari Nagar; west Delhi public hospital
+sgm,Sanjay Gandhi Memorial Hospital,hospital,28.6910,77.0640,Mangolpuri; outer north-west Delhi
+ambedkar,Dr. Baba Saheb Ambedkar Hospital,hospital,28.7160,77.1060,Rohini Sector 6; north-west catchment
+max_shalimar,Max Hospital Shalimar Bagh,hospital,28.7150,77.1600,North-west Delhi; Outer Ring Road
+igh_dwarka,Indira Gandhi Hospital Dwarka,hospital,28.5820,77.0620,Dwarka Sector 9; south-west sub-city
+moolchand,Moolchand Hospital,hospital,28.5680,77.2380,Lajpat Nagar; Ring Road frontage
+max_saket,Max Super Speciality Hospital Saket,hospital,28.5276,77.2194,South Delhi
+holy_family,Holy Family Hospital,hospital,28.5645,77.2760,Okhla; south-east Delhi
+apollo,Indraprastha Apollo Hospital,hospital,28.5410,77.2832,Sarita Vihar / Mathura Road
+batra,Batra Hospital,hospital,28.5100,77.2600,Tughlakabad; MB Road catchment
+gtb,Guru Teg Bahadur Hospital,hospital,28.6820,77.3090,East Delhi public hospital; Dilshad Garden
+rgssh,Rajiv Gandhi Super Speciality Hospital,hospital,28.6845,77.3105,Tahirpur; east Delhi
+jpc,Jag Pravesh Chandra Hospital,hospital,28.6700,77.2560,Shastri Park; trans-Yamuna
+chacha_nehru,Chacha Nehru Bal Chikitsalaya,hospital,28.6570,77.2740,Geeta Colony; paediatric
+lbs,Lal Bahadur Shastri Hospital,hospital,28.6255,77.3050,Khichripur; east Delhi
+max_patparganj,Max Patparganj,hospital,28.6335,77.3088,East Delhi; near Anand Vihar
+medanta,Medanta - The Medicity,hospital,28.4395,77.0408,Gurugram Sector 38
+fortis_ggm,Fortis Memorial Gurugram,hospital,28.4568,77.0726,Gurugram; NH-48 / Golf Course
+artemis_ggm,Artemis Hospital,hospital,28.4295,77.0680,Gurugram Sector 51
+paras_ggm,Paras Health Gurugram,hospital,28.4530,77.0810,Gurugram Sector 43
+civil_ggm,Civil Hospital Gurugram,hospital,28.4620,77.0250,Sector 10; district public hospital
+bk_fbd,BK Civil Hospital Faridabad,hospital,28.4010,77.3100,District public hospital; NIT Faridabad
+sarvodaya_fbd,Sarvodaya Hospital Faridabad,hospital,28.3760,77.3130,Sector 8; southern Faridabad
+esic_fbd,ESIC Medical College Faridabad,hospital,28.3690,77.3170,NH-19 corridor
+fortis_noida,Fortis Hospital Noida,hospital,28.6202,77.3645,Sector 62
+district_noida,District Hospital Noida,hospital,28.5790,77.3520,Sector 30; public hospital
+kailash_noida,Kailash Hospital Noida,hospital,28.5760,77.3350,Sector 27
+jaypee_noida,Jaypee Hospital Noida,hospital,28.5090,77.3760,Sector 128; Expressway side
+gims_gn,GIMS Greater Noida,hospital,28.4550,77.5060,Government medical college; Knowledge Park
+sharda_gn,Sharda Hospital Greater Noida,hospital,28.4720,77.4830,Knowledge Park III
+max_vaishali,Max Hospital Vaishali,hospital,28.6440,77.3390,Ghaziabad trans-Hindon
+yashoda_gzb,Yashoda Hospital Nehru Nagar,hospital,28.6640,77.4340,Ghaziabad city
+mmg_gzb,MMG District Hospital,hospital,28.6660,77.4390,Ghaziabad public hospital
+cp_fire,Connaught Place Fire Station,fire_station,28.6315,77.2167,Central desk
+karol_fire,Karol Bagh Fire Station,fire_station,28.6515,77.1907,West-central
+mayapuri_fire,Mayapuri Fire Station,fire_station,28.6350,77.1300,West Delhi industrial belt
+janakpuri_fire,Janakpuri Fire Station,fire_station,28.6220,77.0870,West Delhi
+dwarka_fire,Dwarka Fire Station,fire_station,28.5920,77.0530,South-west sub-city
+nehru_fire,Nehru Place Fire Station,fire_station,28.5494,77.2501,South
+okhla_fire,Okhla Fire Station,fire_station,28.5390,77.2740,South-east industrial area
+rohini_fire,Rohini Fire Station,fire_station,28.7149,77.1156,North-west
+narela_fire,Narela Fire Station,fire_station,28.8400,77.1000,Outer north Delhi
+shahdara_fire,Shahdara Fire Station,fire_station,28.6720,77.2870,Trans-Yamuna east
+ggm_fire,Gurugram Fire Station (MG Road),fire_station,28.4805,77.0805,NCR west
+noida_fire,Noida Sector 55 Fire Station,fire_station,28.6010,77.3610,NCR east
+gzb_fire,Ghaziabad Fire Station (Kavi Nagar),fire_station,28.6740,77.4270,NCR north-east
+fbd_fire,Faridabad NIT Fire Station,fire_station,28.3830,77.3060,NCR south
+modern_school,Modern School Barakhamba,school,28.6288,77.2285,Near Mandi House / CP
+spv,Sardar Patel Vidyalaya,school,28.6280,77.1955,Lodhi Estate / central
+dps_rkp,DPS RK Puram,school,28.5633,77.1868,South-west; Outer Ring access
+dps_mathura_rd,DPS Mathura Road,school,28.5760,77.2560,South-east; Ring Road junction
+dps_dwarka,DPS Dwarka,school,28.5920,77.0430,South-west sub-city
+ryan_rohini,Ryan International Rohini,school,28.7100,77.1200,North-west Delhi
+dav_shahdara,DAV Public School Shahdara,school,28.6790,77.2930,Trans-Yamuna east
+amity_noida,Amity International Noida,school,28.5590,77.3540,Sector 44; NCR east

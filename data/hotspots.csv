@@ -1,0 +1,72 @@
+id,name,area,lat,lon,severity,is_underpass,relative_elevation_m,source,notes
+minto,Minto Bridge,Central Delhi,28.6308,77.2245,5,1,-5,MCD/NDMC flood-prone lists / news archives (demo compilation),Historic underpass below the rail line; shuts in moderate rain
+rajpur,Rajpur Road underpass,Civil Lines,28.6795,77.2210,5,1,-4,MCD/NDMC flood-prone lists / news archives (demo compilation),Civil Lines underpass; Hindu Rao / North Delhi access
+aiims_ring,AIIMS Ring Road underpass,South Delhi,28.5688,77.2110,5,1,-5,MCD/NDMC flood-prone lists / news archives (demo compilation),Ring Road dip next to AIIMS and Safdarjung
+pragati_tunnel,Pragati Maidan tunnel,Central Delhi,28.6180,77.2440,4,1,-5,MCD/NDMC flood-prone lists / news archives (demo compilation),Tunnel and its Bhairon Marg ramps pond fast
+bhairon,Bhairon Marg,Central Delhi,28.6122,77.2500,4,0,-2,MCD/NDMC flood-prone lists / news archives (demo compilation),Ring Road link past Purana Qila; chronic sheet flooding
+defence,Defence Colony flyover,South Delhi,28.5734,77.2328,4,1,-3,MCD/NDMC flood-prone lists / news archives (demo compilation),Flyover underpass on the Lajpat-Andrews stretch
+punjabi_bagh,Punjabi Bagh Club Road,West Delhi,28.6686,77.1319,5,0,-2,MCD/NDMC flood-prone lists / news archives (demo compilation),Rohtak Road / Club Road; chronic west-Delhi flooding
+raja_garden,Raja Garden,West Delhi,28.6512,77.1245,4,0,-1,MCD/NDMC flood-prone lists / news archives (demo compilation),Ring Road-Najafgarh Road junction
+mayapuri,Mayapuri Chowk,West Delhi,28.6378,77.1289,4,0,-1,MCD/NDMC flood-prone lists / news archives (demo compilation),Industrial area; Ring Road bottleneck
+naraina,Naraina Vihar,West Delhi,28.6306,77.1408,4,0,-1,MCD/NDMC flood-prone lists / news archives (demo compilation),Ring Road dip toward Dhaula Kuan
+zakhira,Zakhira underpass,West Delhi,28.6620,77.1520,5,1,-4,MCD/NDMC flood-prone lists / news archives (demo compilation),Rail underpass on Patel Road; recurring vehicle strandings
+hari_nagar,Hari Nagar / DDU stretch,West Delhi,28.6295,77.1215,3,0,-1,MCD/NDMC flood-prone lists / news archives (demo compilation),Approach to DDU Hospital off Najafgarh Road
+peeragarhi,Peeragarhi Chowk,West Delhi,28.6795,77.0930,4,0,-1,MCD/NDMC flood-prone lists / news archives (demo compilation),Rohtak Road / Outer Ring interchange
+nangloi,Nangloi,West Delhi,28.6820,77.0640,4,0,-2,MCD/NDMC flood-prone lists / news archives (demo compilation),Rohtak Road; low-lying with weak drain outfall
+najafgarh_rd,Najafgarh Road at Kakrola,South-West Delhi,28.6100,76.9900,4,0,-2,MCD/NDMC flood-prone lists / news archives (demo compilation),Najafgarh drain backs up into the carriageway
+andrews,Andrews Ganj,South Delhi,28.5654,77.2267,4,0,-1,MCD/NDMC flood-prone lists / news archives (demo compilation),Ring Road; Central School / Defence Colony access
+south_ex,South Extension,South Delhi,28.5689,77.2194,4,0,0,MCD/NDMC flood-prone lists / news archives (demo compilation),Ring Road market stretch
+moti_bagh,Moti Bagh Ring Road,South Delhi,28.5760,77.1780,3,0,-1,MCD/NDMC flood-prone lists / news archives (demo compilation),Ring Road dip between Dhaula Kuan and INA
+munirka,Munirka Outer Ring Road,South Delhi,28.5540,77.1730,3,0,-1,MCD/NDMC flood-prone lists / news archives (demo compilation),Outer Ring Road; JNU and Vasant Vihar access
+chirag_delhi,Chirag Delhi flyover,South Delhi,28.5378,77.2258,4,1,-3,MCD/NDMC flood-prone lists / news archives (demo compilation),Outer Ring Road underpass below the flyover
+okhla_underpass,Okhla underpass at Modi Mill,South Delhi,28.5460,77.2680,4,1,-3,MCD/NDMC flood-prone lists / news archives (demo compilation),Outer Ring Road underpass; Nehru Place and Kalkaji access
+pul_prahladpur,Pul Prahladpur underpass,South Delhi,28.4952,77.2810,5,1,-6,MCD/NDMC flood-prone lists / news archives (demo compilation),Rail underpass that has submerged buses; MB Road access
+badarpur,Badarpur Border,South Delhi,28.4930,77.3040,4,0,-2,MCD/NDMC flood-prone lists / news archives (demo compilation),Mathura Road at the Haryana border; NH-19 approach
+sarita_vihar,Sarita Vihar,South-East Delhi,28.5310,77.2900,3,0,-1,MCD/NDMC flood-prone lists / news archives (demo compilation),Mathura Road service lanes; Apollo Hospital approach
+ito,ITO / Tilak Bridge,Central Delhi,28.6289,77.2410,4,0,0,MCD/NDMC flood-prone lists / news archives (demo compilation),East-west spine; LNJP and ITO offices
+ashram,Ashram Chowk,South-East Delhi,28.5729,77.2591,5,0,-2,MCD/NDMC flood-prone lists / news archives (demo compilation),Ring Road and Mathura Road junction; chronic ponding
+sarai_kk,Sarai Kale Khan,South-East Delhi,28.5885,77.2586,4,0,-1,MCD/NDMC flood-prone lists / news archives (demo compilation),Ring Road / bus terminal; DND approach
+barapullah,Barapullah,South-East Delhi,28.5834,77.2458,3,0,0,MCD/NDMC flood-prone lists / news archives (demo compilation),Elevated corridor approaches still pond at grade
+nehru_place,Nehru Place,South Delhi,28.5494,77.2501,3,0,0,MCD/NDMC flood-prone lists / news archives (demo compilation),Outer Ring / commercial district
+mahipalpur,Mahipalpur NH-48,South-West Delhi,28.5450,77.1250,4,0,-1,MCD/NDMC flood-prone lists / news archives (demo compilation),Airport approach; service road ponding on NH-48
+kapashera,Kapashera Border,South-West Delhi,28.5230,77.0850,4,0,-2,MCD/NDMC flood-prone lists / news archives (demo compilation),Delhi-Gurugram old road; drain outfall chokes
+dwarka_underpass,Dwarka Sector 8 underpass,South-West Delhi,28.5800,77.0480,4,1,-4,MCD/NDMC flood-prone lists / news archives (demo compilation),Sub-city underpass; pumps fail under sustained rain
+palam_flyover,Palam flyover approach,South-West Delhi,28.5820,77.0900,3,0,-1,MCD/NDMC flood-prone lists / news archives (demo compilation),Dwarka Link Road; airport-side approach
+dwarka_mor,Dwarka Mor,South-West Delhi,28.6193,77.0333,3,0,-1,MCD/NDMC flood-prone lists / news archives (demo compilation),Najafgarh drain influence
+azadpur,Azadpur,North Delhi,28.7116,77.1734,4,0,-1,MCD/NDMC flood-prone lists / news archives (demo compilation),GT Karnal Road / Outer Ring
+jahangirpuri,Jahangirpuri,North Delhi,28.7259,77.1627,4,0,-2,MCD/NDMC flood-prone lists / news archives (demo compilation),Low-lying resettlement area; few alternate streets
+mukarba,Mukarba Chowk,North Delhi,28.7385,77.1585,4,0,-2,MCD/NDMC flood-prone lists / news archives (demo compilation),NH-44 and Outer Ring interchange; long backups
+burari,Burari,North Delhi,28.7480,77.1970,4,0,-2,MCD/NDMC flood-prone lists / news archives (demo compilation),Outer Delhi; near the Yamuna floodplain
+wazirabad_rd,Wazirabad Road,North-East Delhi,28.7040,77.2440,4,0,-1,MCD/NDMC flood-prone lists / news archives (demo compilation),North-east arterial; drain overflow at the bridge approach
+shalimar_bagh,Shalimar Bagh,North-West Delhi,28.7015,77.1585,3,0,-1,MCD/NDMC flood-prone lists / news archives (demo compilation),Outer Ring Road; Ring Road service lane ponding
+rithala,Rohini Sector 18 / Rithala,North-West Delhi,28.7205,77.1080,3,0,-1,MCD/NDMC flood-prone lists / news archives (demo compilation),Outer Rohini; drain capacity shortfall
+shastri_park,Shastri Park,North-East Delhi,28.6690,77.2510,4,0,-2,MCD/NDMC flood-prone lists / news archives (demo compilation),Yamuna-side low ground; Wazirabad Road access
+seelampur,Seelampur,North-East Delhi,28.6700,77.2680,4,0,-2,MCD/NDMC flood-prone lists / news archives (demo compilation),Dense trans-Yamuna area; GT Road approach
+shahdara,Shahdara / Loni Road,East Delhi,28.6720,77.2880,4,0,-2,MCD/NDMC flood-prone lists / news archives (demo compilation),Loni Road roundabout; GTB Hospital catchment
+karkardooma,Karkardooma,East Delhi,28.6540,77.3010,3,0,-1,MCD/NDMC flood-prone lists / news archives (demo compilation),Court complex and Anand Vihar approach
+laxmi_nagar,Laxmi Nagar,East Delhi,28.6304,77.2773,4,0,-1,MCD/NDMC flood-prone lists / news archives (demo compilation),Vikas Marg market; trans-Yamuna access
+ghazipur,Ghazipur NH-9,East Delhi,28.6250,77.3260,4,0,-2,MCD/NDMC flood-prone lists / news archives (demo compilation),NH-9 at the landfill; Ghaziabad-bound traffic
+geeta_colony,Geeta Colony,East Delhi,28.6550,77.2680,3,0,-1,MCD/NDMC flood-prone lists / news archives (demo compilation),Yamuna-side road; bridge approach ponding
+mayur_vihar,Mayur Vihar Phase 1,East Delhi,28.6047,77.2987,3,0,-1,MCD/NDMC flood-prone lists / news archives (demo compilation),Noida Link Road; Akshardham approach
+chilla,Chilla Border,East Delhi,28.5990,77.2960,4,0,-2,MCD/NDMC flood-prone lists / news archives (demo compilation),Delhi-Noida link at the canal; regular closures
+mg_road,MG Road,Gurugram,28.4805,77.0805,5,0,-1,Gurugram civic lists / news archives (demo compilation),Service lanes along MG Road metro flood first
+iffco,IFFCO Chowk,Gurugram,28.4722,77.0718,4,0,-1,Gurugram civic lists / news archives (demo compilation),NH-48 interchange; office-district bottleneck
+hero_honda,Hero Honda Chowk,Gurugram,28.4390,77.0330,5,1,-5,Gurugram civic lists / news archives (demo compilation),NH-48 underpass; the 2016 gridlock site
+narsinghpur,Narsinghpur NH-48,Gurugram,28.4470,77.0440,5,0,-4,Gurugram civic lists / news archives (demo compilation),Natural drain crossing on NH-48; deep standing water
+rajiv_chowk_ggm,Rajiv Chowk,Gurugram,28.4590,77.0720,4,0,-2,Gurugram civic lists / news archives (demo compilation),NH-48 and Sohna Road interchange
+basai,Basai Road,Gurugram,28.4730,77.0175,4,0,-2,Gurugram civic lists / news archives (demo compilation),Old Railway Road; Basai wetland drainage
+golf_ext,Golf Course Extension Road,Gurugram,28.4180,77.0620,4,0,-2,Gurugram civic lists / news archives (demo compilation),Sectors 65-67; new-sector drainage not built out
+sohna,Sohna Road / Badshahpur,Gurugram,28.4080,77.0470,4,0,-2,Gurugram civic lists / news archives (demo compilation),Southern Gurugram; Badshahpur drain
+badkhal,Badkhal Mor underpass,Faridabad,28.4090,77.3080,4,1,-3,Faridabad civic lists / news archives (demo compilation),Rail underpass on the Delhi-Mathura corridor
+bata_chowk,Bata Chowk,Faridabad,28.3830,77.3130,4,0,-2,Faridabad civic lists / news archives (demo compilation),NIT Faridabad; Mathura Road service lanes
+ballabgarh,Ballabgarh NH-19,Faridabad,28.3390,77.3230,3,0,-1,Faridabad civic lists / news archives (demo compilation),Southern NH-19; Agra Canal side drainage
+noida_18,Sector 18 market,Noida,28.5701,77.3210,4,0,-1,Noida Authority lists / news archives (demo compilation),At-grade market; Film City / DND approach
+mahamaya,Mahamaya Flyover,Noida,28.5675,77.3260,3,1,-3,Noida Authority lists / news archives (demo compilation),Flyover underpass on the Sector 18-Botanical stretch
+noida_62,Noida Sector 62,Noida,28.6198,77.3715,3,0,-1,Noida Authority lists / news archives (demo compilation),Model Town side; NH-9 service road ponding
+noida_137,Noida Sector 137 Expressway,Noida,28.5065,77.4090,3,0,-1,Noida Authority lists / news archives (demo compilation),Expressway service road; new-sector drains
+pari_chowk,Pari Chowk,Greater Noida,28.4640,77.5040,3,0,-1,Greater Noida Authority lists / news archives (demo compilation),Central roundabout; Knowledge Park approaches
+indirapuram,Indirapuram,Ghaziabad,28.6420,77.3770,3,0,-1,Ghaziabad civic lists / news archives (demo compilation),NH-9 / trans-Hindon residential flooding
+mohan_nagar,Mohan Nagar,Ghaziabad,28.6830,77.3450,4,0,-2,Ghaziabad civic lists / news archives (demo compilation),GT Road junction; Hindon side drainage
+vasundhara,Vasundhara,Ghaziabad,28.6600,77.3720,3,0,-1,Ghaziabad civic lists / news archives (demo compilation),Trans-Hindon sectors; NH-9 access
+kavi_nagar,Kavi Nagar / Hapur Road,Ghaziabad,28.6740,77.4260,3,0,-1,Ghaziabad civic lists / news archives (demo compilation),Hapur Road; old-city drain capacity
+loni,Loni,Ghaziabad,28.7530,77.2880,4,0,-2,Ghaziabad civic lists / news archives (demo compilation),Loni Road; low ground near the Yamuna-Hindon doab
